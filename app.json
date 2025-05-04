@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "ignite-modulo-03-desafio",
-    "slug": "ignite-modulo-03-desafio",
+    "name": "marketspace",
+    "slug": "marketspace",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,7 +13,8 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.marketspace"
     },
     "android": {
       "adaptiveIcon": {
@@ -23,7 +24,9 @@
       "edgeToEdgeEnabled": true
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": ["expo-font"]
   }
 }
