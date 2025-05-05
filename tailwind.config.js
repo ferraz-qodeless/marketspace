@@ -20,7 +20,8 @@ module.exports = {
         white: "#FFFFFF",
       },
       fontFamily: {
-        karla: ["Karla_400Regular", "Karla_700Bold"],
+        "karla-bold": ["Karla_700Bold"],
+        "karla-regular": ["Karla_400Regular"],
       },
     },
   },
